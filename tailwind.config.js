@@ -32,8 +32,10 @@ module.exports = {
         }],
       },
       colors: {
-        'primary': '#670229',
-        'secondary': '#F4ECE1',
+        'primary': '#2C2C2C',
+        'secondary': '#920000',
+        'white': '#FFFFFF',
+        'beige' : '#ECE7E1'
       },
       maxWidth: {
         'wrapper': '1520px',
