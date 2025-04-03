@@ -5,33 +5,52 @@
     /** define functions */
     if ( ! function_exists( 'create_post_type' ) ) {
         function create_post_type() {
-            register_post_type( 'name-of-cpt',
+            register_post_type( 'team',
                 array(
                     'labels' => array(
-                        'name' => __( 'Mein CPT' ),
-                        'singular_name' => __( 'Mein CPT' ),
-                        'add_new' => __('Neue Seite erstellen'),
+                        'name' => __( 'Team' ),
+                        'singular_name' => __( 'Team' ),
+                        'add_new' => __('Neues Teammitglied anlegen'),
                     ),
                     'public' => true,
-                    'supports' => array ( 'title', 'custom-fields' ),
+                    'supports' => [
+                        'title',
+                        'editor',
+                        'custom-fields',
+                        'excerpt',
+                        'thumbnail',
+                    ],
                     //'taxonomies' => array( 'category', 'post_tag' ),
                     'hierarchical' => true,
                     'has_archive' => true,
                     'show_in_rest' => true,
-                    'rewrite' => array ( 'slug' => __( 'name-of-cpt' ) )
+                    'show_ui' => true,
+                    'rewrite' => array ( 'slug' => __( 'team' ) )
                 )
             );
-            /*
-            register_taxonomy( 'name-of-cpt_category', 'name-of-cpt', array(
-                'hierarchical' => true,
-                'label' => __('Kategorie'),
-                'query_var' => 'name-of-cpt_category',
-                'rewrite' => array('slug', 'name-of-cpt_category'),
-                'show_ui'                    => true,
-                'show_admin_column'          => true,
-                'show_in_rest'               => true,
-            ));
-            */
+            register_post_type( 'rezensionen',
+                array(
+                    'labels' => array(
+                        'name' => __( 'Rezensionen' ),
+                        'singular_name' => __( 'Rezension' ),
+                        'add_new' => __('Neue Rezension anlegen'),
+                    ),
+                    'public' => true,
+                    'supports' => [
+                        'title',
+                        'editor',
+                        'custom-fields',
+                        'excerpt',
+                        'thumbnail',
+                    ],
+                    //'taxonomies' => array( 'category', 'post_tag' ),
+                    'hierarchical' => true,
+                    'has_archive' => true,
+                    'show_in_rest' => true,
+                    'show_ui' => true,
+                    'rewrite' => array ( 'slug' => __( 'rezension' ) )
+                )
+            );
         }
     }
 

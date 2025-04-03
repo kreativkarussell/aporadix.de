@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="stock-upwards" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.8 51.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #91191c;
+        stroke: #91191c;
+        stroke-width: .2px;
+      }
+    </style>
+  </defs>
+  <g id="_003-bars" data-name=" 003-bars">
+    <g id="Group_14" data-name="Group 14">
+      <g id="Group_13" data-name="Group 13">
+        <path id="Path_25" data-name="Path 25" class="cls-1" d="M39.12.1v1.7h3.04l-17.47,17.46-8.48-8.49-10.78,10.78,1.19,1.2,9.59-9.58,8.48,8.48L43.37,3v3.03h1.7V.1h-5.94Z"/>
+      </g>
+    </g>
+    <g id="Group_16" data-name="Group 16">
+      <g id="Group_15" data-name="Group 15">
+        <path id="Path_26" data-name="Path 26" class="cls-1" d="M51,49.3h0V11.97h-8.48v37.32h-1.7V17.07h-8.48v32.24h-1.7v-20.37h-8.49v20.35h-1.7v-25.45h-8.48v25.45h-1.7v-11.88H1.8v11.88H.1v1.7h52.6v-1.7h-1.7ZM8.59,49.3H3.5v-10.18h5.09v10.18ZM18.77,49.3h-5.1v-23.75h5.09v23.75ZM28.95,49.31h-5.1v-18.67h5.09v18.67ZM39.12,49.31h-5.1v-30.54h5.09v30.54ZM49.31,49.3h-5.1V13.67h5.09v35.62Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,7 +1,7 @@
 {
-"name": "acf/icon-card",
-"title": "Block: Icon Card",
-"description": "Liste in Form von Karten",
+"name": "acf/team-slider",
+"title": "Slider (Team)",
+"description": "Slider mit Bildern vom Team",
 "category": "design",
 "icon": {
 "background": "#670229",
@@ -27,5 +27,6 @@
 "block-preview": "file:./preview.png"
 }
 }
-}
+},
+  "script": "file:./script.js"
 }

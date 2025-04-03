@@ -1,7 +1,7 @@
 {
-"name": "acf/icon-card",
-"title": "Block: Icon Card",
-"description": "Liste in Form von Karten",
+"name": "acf/review-slider",
+"title": "Block: Rezension",
+"description": "Slider mit Rezensionen mit opt. Links zu Case Studies",
 "category": "design",
 "icon": {
 "background": "#670229",
@@ -27,5 +27,6 @@
 "block-preview": "file:./preview.png"
 }
 }
-}
+},
+  "script": "file:./script"
 }

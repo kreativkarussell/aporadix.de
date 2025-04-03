@@ -117,7 +117,7 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "table",
+            "layout": "block",
             "pagination": 0,
             "min": 0,
             "max": 0,
@@ -139,7 +139,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "choices": [],
+                    "choices": {
+                        "communications": "Kommunikation",
+                        "four-hands": "Vier Hände",
+                        "hand-shield": "Schild in Hand",
+                        "person-stars": "Person mit Sternen",
+                        "pharmacy": "Apotheke",
+                        "phone": "Handy",
+                        "statistics": "Statistiken",
+                        "stock-upwards": "Stock (Trend nach oben)"
+                    },
                     "default_value": false,
                     "return_format": "value",
                     "multiple": 0,
@@ -255,5 +264,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1743668339
+    "modified": 1743670712
 }
