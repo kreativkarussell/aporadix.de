@@ -1,0 +1,32 @@
+{
+"name": "acf/character-card",
+"title": "Karte mit Zeichenhintergrund",
+"description": "Karte mit dem 1. Zeichen des Titels als Hintergrund",
+"category": "design",
+"icon": {
+"background": "#670229",
+"foreground": "#fff",
+"src": "minus"
+},
+"keywords": [
+"divider",
+"trenner"
+],
+"acf": {
+"mode": "edit",
+"renderTemplate": "template.php"
+},
+"supports": {
+"align": false,
+"mode": false
+},
+"example": {
+"attributes": {
+"mode": "preview",
+"data": {
+"block-preview": "file:./preview.png"
+}
+}
+},
+  "script": "file:./script.js"
+}
