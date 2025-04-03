@@ -24,11 +24,6 @@ if (isset($block['data']['block-preview'])) {?>
         <div class="wrapper">
             <div class="swiper-review">
                 <ul class="swiper-wrapper">
-                    <?php
-
-                    ?>
-                    <?php foreach (){?>
-                    <?php }?>
                 </ul>
             </div>
         </div>
