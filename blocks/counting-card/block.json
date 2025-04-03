@@ -1,0 +1,32 @@
+{
+"name": "acf/counting-card",
+"title": "Karten (Hochzählend)",
+"description": "Karten mit Zahlen o. Buchstaben, die mit einer Animation hochzählen",
+"category": "design",
+"icon": {
+"background": "#670229",
+"foreground": "#fff",
+"src": "minus"
+},
+"keywords": [
+"divider",
+"trenner"
+],
+"acf": {
+"mode": "edit",
+"renderTemplate": "template.php"
+},
+"supports": {
+"align": false,
+"mode": false
+},
+"example": {
+"attributes": {
+"mode": "preview",
+"data": {
+"block-preview": "file:./preview.png"
+}
+}
+},
+  "script": "file:./script.js"
+}
