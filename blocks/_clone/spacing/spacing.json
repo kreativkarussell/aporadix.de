@@ -1,0 +1,99 @@
+{
+    "key": "group_67091ccf0ef8b",
+    "title": "Clone: Spacing",
+    "fields": [
+        {
+            "key": "field_67091da2cc082",
+            "label": "Abstand",
+            "name": "spacing",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "sub_fields": [
+                {
+                    "key": "field_67091ccfcc080",
+                    "label": "Abstand Oben",
+                    "name": "spacing_top",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "pt-none": "Kein Abstand",
+                        "pt-default": "Standard (144px)",
+                        "pt-medium": "Medium (120px)",
+                        "pt-small": "Klein (80px)"
+                    },
+                    "default_value": "pt-small",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_67091d8fcc081",
+                    "label": "Abstand Unten",
+                    "name": "spacing_bottom",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "pb-none": "Kein Abstand",
+                        "pb-default": "Standard (144px)",
+                        "pb-medium": "Medium (120px)",
+                        "pb-small": "Klein (80px)"
+                    },
+                    "default_value": "pb-small",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1741274964
+}
